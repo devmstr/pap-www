@@ -81,8 +81,9 @@ export function UnitsTable({
 
   function prevPage() {
     const search = searchParams.get('search')
-    const paramPrefix =
-      search && search.length > 0 ? `?search=${searchText}&` : '?'
+    const paramPrefix = search
+      ? search.length > 0 && `?search=${searchText}&`
+      : '?'
     router.push(`${paramPrefix}page=${Number(page) - 1}`, {
       scroll: false
     })
@@ -90,8 +91,9 @@ export function UnitsTable({
 
   function nextPage() {
     const search = searchParams.get('search')
-    const paramPrefix =
-      search && search.length > 0 ? `?search=${searchText}&` : '?'
+    const paramPrefix = search
+      ? search.length > 0 && `?search=${searchText}&`
+      : '?'
     router.push(`${paramPrefix}page=${Number(page) + 1}`, {
       scroll: false
     })
