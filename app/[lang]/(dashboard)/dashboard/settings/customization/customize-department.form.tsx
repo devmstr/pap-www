@@ -67,6 +67,8 @@ export function CustomizeDepartmentForm({
   hasNextPage,
   hasPrevPage
 }: CustomizeDepartmentFormProps) {
+  console.log('departments :', inputDepartments)
+  console.log('divisions :', divisions)
   const [isLoading, setIsLoading] = React.useState<boolean>(false)
   const [departments, setDepartments] = React.useState(inputDepartments)
 

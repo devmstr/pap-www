@@ -67,6 +67,7 @@ export const CustomizeDepartmentDialog: React.FC<
   if (!res || !res2) return <Loading />
   const { data: departments, _count } = res
   const { data: divisions } = res2
+
   return (
     <Dialog>
       <DialogTrigger asChild>
