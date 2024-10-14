@@ -1,0 +1,72 @@
+[
+  {
+    "x": 10,
+    "y": 46,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait25.png",
+    "displayName": "John Doe",
+    "position": "Chief Operating Officer"
+  },
+  {
+    "x": 75,
+    "y": 10,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait27.png",
+    "displayName": "Jane Smith",
+    "position": "Administration Vice President"
+  },
+  {
+    "x": 80,
+    "y": 30,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait3.png",
+    "displayName": "Michael Johnson",
+    "position": "Administration Vice President"
+  },
+  {
+    "x": 10,
+    "y": 40,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait28.png",
+    "displayName": "Emily Williams",
+    "position": "Programmer"
+  },
+  {
+    "x": 60,
+    "y": 70,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait33.png",
+    "displayName": "David Brown",
+    "position": "Programmer"
+  },
+  {
+    "x": 13,
+    "y": 56,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait31.png",
+    "displayName": "Sarah Garcia",
+    "position": "Programmer"
+  },
+  {
+    "x": 70,
+    "y": 50,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait4.png",
+    "displayName": "Jessica Martinez",
+    "position": "Programmer"
+  },
+  {
+    "x": 20,
+    "y": 40,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait39.png",
+    "displayName": "Christopher Lopez",
+    "position": "Programmer"
+  },
+  {
+    "x": 55,
+    "y": 80,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait5.png",
+    "displayName": "Daniel Hernandez",
+    "position": "Finance Manager"
+  },
+  {
+    "x": 50,
+    "y": 40,
+    "image": "https://bumbeishvili.github.io/avatars/avatars/portrait10.png",
+    "displayName": "Lisa Young",
+    "position": "Accountant"
+  }
+]

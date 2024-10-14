@@ -1,0 +1,46 @@
+{
+  "auth": {
+    "image": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "displayName": "Ahmed Bouzidi",
+    "role": "employee",
+    "email": "AhmedBouzidi@gmail.com"
+  },
+  "personal": {
+    "bio": "Experienced marketing manager with a passion for developing and implementing successful marketing strategies.",
+    "firstName": "Ahmed",
+    "lastName": "Bouzidi",
+    "middleName": "Mohamed",
+    "gender": "M",
+    "maritalStatus": "Married",
+    "dob": "1985-07-22T08:42:00.000Z",
+    "sons": 3,
+    "ssn": "123-45-6789"
+  },
+  "contact": {
+    "mobile": "+213 123 456 789",
+    "homePhone": "+213 987 654 321",
+    "workPhone": "+213 111 222 333",
+    "email": "ahmedbouzidi@codehow.com",
+    "personalEmail": "ahmed.bouzidi@gmail.com"
+  },
+  "address": {
+    "street1": "123 Republic Street",
+    "street2": "Apt 456",
+    "city": "Laghouat",
+    "state": "Laghouat",
+    "zip": "16000",
+    "country": "Algeria"
+  },
+  "job": {
+    "company": "CodeHow",
+    "description": "Responsible for developing and implementing marketing strategies.",
+    "title": "Marketing Manager",
+    "location": "Algiers",
+    "department": "Marketing",
+    "division": "Western Region (Oran)",
+    "type": "Full Time",
+    "manager": "Salim Abdelrahman",
+    "employeeNumber": "CodeHow_5678",
+    "employedAt": "2020-09-01T08:42:00.000Z"
+  }
+}

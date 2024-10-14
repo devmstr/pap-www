@@ -1,0 +1,139 @@
+'use client'
+
+import * as React from 'react'
+import Link from 'next/link'
+import { useRouter } from 'next/navigation'
+
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle
+} from '@/components/ui/alert-dialog'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger
+} from '@/components/ui/dropdown-menu'
+import { toast } from '@/components/ui/use-toast'
+import { Icons } from '@/components/icons'
+import useClientApi from '@/hooks/use-axios-auth'
+import { useSession } from 'next-auth/react'
+import { cn } from '@/lib/utils'
+import { Button, buttonVariants } from './ui/button'
+import { Locale } from '@/i18n.config'
+
+interface CardOperationsProps {
+  params: { lang: Locale; id: string; competencyId: string }
+}
+
+export function CardOperations({
+  params: { id: authId, competencyId, lang }
+}: CardOperationsProps) {
+  const [isDeleting, setIsDeleting] = React.useState(false)
+  const [deletingId, setDeletingId] = React.useState<string | null>(null)
+  const [showDeleteAlert, setShowDeleteAlert] = React.useState<boolean>(false)
+  const api = useClientApi()
+  const { refresh, push } = useRouter()
+  const { data: session } = useSession()
+
+  const handleDelete = async (id: string) => {
+    try {
+      setIsDeleting(true)
+      const { data } = await api.delete(
+        `/competency/${competencyId}?authId=${authId}`
+      )
+      refresh()
+      toast({
+        title: 'Success',
+        description: <p>{'Your Competency Deleted Successfully'}</p>
+      })
+    } catch (error: any) {
+      toast({
+        title: 'Error Occurred',
+        description: <p>{error.response.data.message}</p>,
+        variant: 'destructive'
+      })
+    } finally {
+      setIsDeleting(false)
+    }
+  }
+
+  return (
+    <>
+      <DropdownMenu>
+        <DropdownMenuTrigger className="flex h-8 w-8 items-center justify-center rounded-md border transition-colors hover:bg-muted">
+          <Icons.ellipsis className="h-4 w-4" />
+          <span className="sr-only">Open</span>
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end">
+          <DropdownMenuItem asChild>
+            <Button
+              onClick={() =>
+                push(
+                  `/dashboard/profile/${authId}/competencies/${competencyId}`
+                )
+              }
+              variant={'ghost'}
+              className={cn(
+                'flex gap-3 items-center justify-center w-12 cursor-pointer group  ring-0 focus:ring-0'
+              )}
+            >
+              <Icons.edit className="w-4 h-4 group-hover:text-primary" />
+            </Button>
+          </DropdownMenuItem>
+          <DropdownMenuSeparator />
+          <DropdownMenuItem asChild>
+            <Button
+              variant={'ghost'}
+              className="flex group gap-3 items-center justify-center w-12 cursor-pointer ring-0 focus:ring-0 "
+              onClick={() => setShowDeleteAlert(true)}
+            >
+              <Icons.trash className="w-4 h-4 group-hover:text-destructive" />
+            </Button>
+          </DropdownMenuItem>
+        </DropdownMenuContent>
+      </DropdownMenu>
+      <AlertDialog open={showDeleteAlert} onOpenChange={setShowDeleteAlert}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>
+              Are you sure you want to delete this Competency?
+            </AlertDialogTitle>
+            <AlertDialogDescription>
+              Be careful this action cannot be undone.
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction asChild>
+              <Button
+                className={cn(
+                  buttonVariants({ variant: 'outline' }),
+                  ' text-red-500 focus:ring-red-500 hover:bg-red-500 hover:text-white border-red-500'
+                )}
+                onClick={() => {
+                  setDeletingId(competencyId)
+                  handleDelete(competencyId)
+                }}
+              >
+                {isDeleting && deletingId == competencyId ? (
+                  <Icons.spinner className="mr-2 h-4 w-4 animate-spin" />
+                ) : (
+                  <Icons.trash className="mr-2 h-4 w-4" />
+                )}
+                Delete
+              </Button>
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </>
+  )
+}

@@ -1,0 +1,853 @@
+{
+  "mainNavbar": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Tarification",
+    "about": "À propos",
+    "contact": "Contactez",
+    "login-button": "Se Connecter",
+    "try-it-free-button": "Essayer Gratuitement",
+    "dashboard-button": "Tableau de bord"
+  },
+  "mainFooter": {
+    "company": "Société",
+    "legal": "Légal",
+    "resources": "Ressources",
+    "fellow-us-on": "Suivez-nous sur",
+    "subscribe-to-our-newsletter": "Abonnez-vous maintenant pour recevoir des notifications en temps opportun et rester à jour avec les dernières mises à jour",
+    "all-rights-reserved": "Tous droits réservés. Pap® est une marque déposée de Pap HR LLC",
+    "services": "Services",
+    "solutions": "Solutions",
+    "pricing": "Tarification",
+    "about-us": "À propos",
+    "contact-us": "Contactez",
+    "developers": "Développeurs",
+    "faq": "FAQ",
+    "support": "Support",
+    "whatsapp": "Whatsapp",
+    "blog": "Blog",
+    "privacy-policy": "Politique de confidentialité",
+    "terms-of-service": "Conditions d'utilisation"
+  },
+  "dialogs": {
+    "competency": {
+      "trigger-title": "Ajouter",
+      "title": "Ajouter une compétence",
+      "sub-title": "Utilisez le sélecteur de département pour trouver des compétences prédéfinies en fonction des exigences de votre poste.",
+      "form": {
+        "search-placeholder": "Rechercher une compétence",
+        "submit": "Mettre à jour",
+        "no-result": "Aucun résultat"
+      },
+      "or-create-a-custom-competency": "Ou créez une compétence personnalisée",
+      "or-create-a-custom-competency-sub-paragraph": "Si vous ne trouvez pas la compétence souhaitée, vous pouvez toujours en créer une personnalisée depuis",
+      "here": "ici",
+      "read-more-about": "En savoir plus sur",
+      "competencies": "Compétences"
+    },
+    "potential": {
+      "trigger-title": "Modifier",
+      "title": "Modifier l'évaluation du potentiel",
+      "sub-title": "Modifiez votre évaluation du potentiel pour l'année en cours. Vous pouvez changer la note et le plan pour chaque compétence. Votre évaluation restera confidentielle pendant le processus d'évaluation.",
+      "form": {
+        "expend": "Étendre",
+        "reduce": "Réduire",
+        "low": "Faible",
+        "medium": "Moyen",
+        "high": "Élevé",
+        "submit": "Mettre à jour"
+      },
+      "read-more-about": "En savoir plus sur",
+      "potential-assessment": "Évaluations du potentiel"
+    },
+    "idps": {
+      "trigger-title": "Ajouter",
+      "title": "Ajouter un objectif de plan de développement individuel",
+      "sub-title": "Ajouter des objectifs de plan de développement individuel à vos employés améliorera leur trajectoire de croissance et alignera leurs objectifs avec le succès de l'organisation.",
+      "form": {
+        "title": "Titre",
+        "plan": "Année",
+        "type": "Type",
+        "duration": "Durée",
+        "trainer": "Formateur",
+        "description": "Description",
+        "priority": "Priorité",
+        "status": "Statut",
+        "category": "Catégorie",
+        "completion-level": "Niveau d'accomplissement",
+        "start-date": "Date de début",
+        "end-date": "Date de fin",
+        "actual-end-date": "Date de fin réelle",
+        "actual-start-date": "Date de début réelle",
+        "success-criteria": "Critères de réussite",
+        "comment": "Commentaire",
+        "submit": "Ajouter"
+      },
+      "read-more-about": "En savoir plus sur",
+      "ipd-objectives": "Objectifs du PDI"
+    },
+    "performance": {
+      "trigger-title": "Ajouter",
+      "title": "Ajouter un objectif de performance",
+      "sub-title": "Ajouter des objectifs de performance à vos employés favorisera la responsabilité, encouragera la croissance professionnelle et augmentera la productivité globale au sein de votre équipe.",
+      "form": {
+        "title": "Titre",
+        "plan": "Année",
+        "description": "Description",
+        "priority": "Priorité",
+        "status": "Statut",
+        "category": "Catégorie",
+        "completion-level": "Niveau d'accomplissement",
+        "start-date": "Date de début",
+        "end-date": "Date de fin",
+        "actual-end-date": "Date de fin réelle",
+        "actual-start-date": "Date de début réelle",
+        "success-criteria": "Critères de réussite",
+        "comment": "Commentaire",
+        "submit": "Ajouter"
+      },
+      "read-more-about": "En savoir plus sur",
+      "objectives": "Objectifs"
+    },
+    "qualifications": {
+      "trigger-title": "Ajouter",
+      "title": "Ajouter une qualification",
+      "sub-title": "Ajouter un certificat de qualification renforce les compétences de votre employé, valide son expertise et contribue à son avancement professionnel.",
+      "form": {
+        "title-of-qualification": "Titre de la qualification",
+        "degree-type": "Type de diplôme",
+        "field-of-study": "Domaine d'étude",
+        "institution": "Établissement",
+        "title-placeholder": "Titre ici",
+        "field-placeholder": "Domaine ici",
+        "institution-placeholder": "Établissement ici",
+        "year": "Année",
+        "submit": "Ajouter"
+      },
+      "read-more-about": "En savoir plus sur",
+      "qualifications": "Qualifications"
+    },
+    "divisions": {
+      "trigger-title": "Divisions",
+      "title": "Personnaliser les divisions",
+      "sub-title": "Ajouter/Retirer une division personnalisée à votre système",
+      "form": {
+        "search-placeholder": "Nom de la division",
+        "submit": "Ajouter"
+      }
+    },
+    "departments": {
+      "trigger-title": "Départements",
+      "title": "Personnaliser les départements",
+      "sub-title": "Ajouter/Retirer un département personnalisé à votre système",
+      "form": {
+        "search-placeholder": "Nom du département",
+        "division": "Division",
+        "department": "Département",
+        "submit": "Ajouter"
+      }
+    },
+    "skills": {
+      "trigger-title": "Ajouter Compétence",
+      "title": "Personnaliser les compétences",
+      "sub-title": "Ajouter une compétence personnalisée à votre système",
+      "form": {
+        "title": "Titre",
+        "sector": "Secteur",
+        "required-level": "Niveau requis",
+        "description": "Description",
+        "description-placeholder": "Description du compétence",
+        "levels-requirements": "Exigences de niveaux",
+        "levels-requirements-sub-paragraph": "Veuillez lister toutes les exigences de niveaux pour votre compétence personnalisée, puis cliquez sur le bouton ajouter.",
+        "levels-requirements-placeholder": "Vous pouvez définir les exigences de niveaux ici",
+        "submit": "Ajouter"
+      }
+    },
+    "competenciesList": {
+      "trigger-title": "Modifier Compétences",
+      "title": "Les Compétences Personnalisées",
+      "sub-title": "Modifier/Retirer une compétence personnalisée de votre système"
+    },
+    "softSkills": {
+      "trigger-title": "Interpersonnelles",
+      "title": "Personnaliser les compétences douces",
+      "sub-title": "Mettez à jour l'ensemble des compétences douces de votre entreprise et sélectionnez 5 à 8 compétences douces à utiliser pour évaluer vos employés plus tard",
+      "form": {
+        "search-placeholder": "Rechercher une compétence douce",
+        "update": "Compris",
+        "warning": "Êtes-vous absolument sûr ?",
+        "warning-paragraph": "Cette action ne peut pas être annulée. Elle supprimera définitivement toutes les anciennes évaluations du potentiel des employés.",
+        "submit": "Continuer",
+        "cancel": "Annuler",
+        "no-result": "Aucun résultat"
+      }
+    },
+    "passwords": {
+      "trigger-title": "Mots de passe",
+      "title": "Mots de passe",
+      "sub-title": "C'est le mot de passe par défaut pour le compte employé. Veuillez le changer après vous être connecté pour la première fois"
+    }
+  },
+  "avatar": {
+    "nav": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    }
+  },
+  "tables": {
+    "buildTeam": {
+      "search-placeholder": "Rechercher par nom, e-mail ou département...",
+      "join-team": "Rejoindre l'équipe",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "displayName": "Nom complet",
+        "email": "E-mail",
+        "department": "Département"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "team": {
+      "search-placeholder": "Rechercher par nom, e-mail ou département...",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "displayName": "Nom complet",
+        "email": "E-mail",
+        "department": "Département"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "passwords": {
+      "search-placeholder": "Rechercher par e-mail",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "display-name": "Nom affiché",
+        "email": "E-mail",
+        "update-at": "Modifier",
+        "password": "Mot de passe"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "competency": {
+      "search-placeholder": "Rechercher par nom de compétence",
+      "columns": {
+        "competency": "Compétence",
+        "sector": "Secteur",
+        "required-level": "Niveau requis",
+        "update-at": "Modifier"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "units": {
+      "name": "Nom",
+      "update-at": "Modifier",
+      "no-result": "Aucun résultat",
+      "search-placeholder": "Rechercher",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "performance": {
+      "objectives": "Objectifs",
+      "viewAll": "Voir tout",
+      "search-by-title-or-category-or-participent": "Rechercher par Titre ou Catégorie ou Participant...",
+      "selectors": {
+        "plan": {
+          "year": "Année",
+          "all": "TOUT"
+        },
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "title": "Titre",
+        "category": "Catégorie",
+        "participant": "Participant",
+        "status": "Statut",
+        "progress": "Score"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "employees": {
+      "search-by-name-or-email-or-department": "Rechercher par nom...",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "fullName": "Nom complet",
+        "email": "E-mail",
+        "department": "Département"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "qualifications": {
+      "search-by-degree-or-field-or-institution": "Rechercher par diplôme ou domaine ou institution...",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "degree": "Diplôme",
+        "field": "Domaine",
+        "institution": "Institution",
+        "year": "Année"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "idps": {
+      "search-by-title-or-category-or-participent": "Rechercher par titre ou catégorie ou participant...",
+      "selectors": {
+        "plan": {
+          "year": "Année",
+          "all": "TOUT"
+        },
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "title": "Titre",
+        "duration": "Durée",
+        "participant": "Participant",
+        "status": "Statut",
+        "deadline": "Date limite",
+        "progress": "Score"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "succession": {
+      "search-by-name": "Rechercher par nom...",
+      "ranking": "Classement",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "full-name": "Nom complet",
+        "readiness": "Préparation"
+      },
+      "previous": "Précédent",
+      "next": "Suivant"
+    }
+  },
+  "pages": {
+    "pricing": {
+      "title": "Plans Tarifaires",
+      "sub-title": "Choisissez l'offre qui correspond le mieux aux besoins de votre entreprise",
+      "chose-your-plan": "Choisissez votre Plan",
+      "small-plan": "Plan Petit",
+      "medium-plan": "Plan Moyen",
+      "premium-plan": "Plan Premium",
+      "billed-yearly": "Facturé annuellement",
+      "or": "ou",
+      "billed-monthly": "facturé mensuellement",
+      "most-popular": "LE PLUS POPULAIRE",
+      "by-now": "Acheter Maintenant",
+      "sub-paragraph": "Si vous ne trouvez pas ce dont vous avez besoin, faites-le nous savoir afin que nous puissions créer ensemble un plan personnalisé adapté à vos besoins spécifiques.",
+      "contact-us": "Contactez-nous"
+    },
+    "contactUs": {
+      "title": "Restez en contact avec PAP !",
+      "sub-title": "Rencontrez l'équipe dédiée de PAP - Vos partenaires en progrès, prêts à vous aider !",
+      "technical-and-account-support": "Support technique et comptable",
+      "technical-and-account-support-sub-title": "Nous sommes là pour vous aider si vous avez des problèmes techniques ou des questions concernant votre compte.",
+      "contact-information": "Informations de contact",
+      "contact-information-sub-title": "Pour toute question générale, veuillez envoyer un e-mail à",
+      "email": "support-team@pap.com",
+      "or-call": "ou appelez",
+      "phone": "+213-658-769-361",
+      "form": {
+        "first-name": "Prénom",
+        "last-name": "Nom",
+        "email": "E-mail",
+        "subject": "Sujet",
+        "message": "Message",
+        "submit": "Envoyer"
+      }
+    },
+    "aboutUs": {
+      "title": "Qui sommes-nous",
+      "sub-title": "Valeurs et Principes",
+      "who-we-are": "Qui Sommes-Nous",
+      "who-we-are-sub-paragraph-1": "Chez Performance Assessment Pro (PAP), nous sommes déterminés à révolutionner l'évaluation des employés au sein des organisations.",
+      "who-we-are-sub-paragraph-2": "Notre équipe est passionnée par la fourniture de solutions innovantes qui permettent aux professionnels des RH de prendre des décisions éclairées sur la performance de la main-d'œuvre.",
+      "who-we-are-sub-paragraph-3": "Avec un engagement envers l'excellence, nous simplifions et améliorons le processus d'évaluation des employés grâce à notre logiciel de pointe, PAP.",
+      "who-we-are-sub-paragraph-4": "Rejoignez-nous pour redéfinir l'avenir de l'évaluation des performances et de la gestion des talents.",
+      "values-and-principals": "Valeurs et Principes",
+      "innovation": "Innovation",
+      "innovation-sub-paragraph": "Nous repoussons les limites de l'évaluation traditionnelle en adoptant des technologies et méthodes innovantes. Notre engagement à l'amélioration continue nous pousse à offrir des solutions qui répondent aux besoins évolutifs de nos clients.",
+      "integrity": "Intégrité",
+      "integrity-sub-paragraph": "L'intégrité est au cœur de nos actions. Nous respectons les plus hauts standards d'honnêteté, de transparence, et de conduite éthique. La confiance est la base de nos relations avec nos clients, partenaires et employés.",
+      "collaboration": "Collaboration",
+      "collaboration-sub-paragraph": "Nous valorisons la collaboration et reconnaissons la force des perspectives diverses. En favorisant un environnement inclusif et collaboratif, nous créons un lieu de travail où la créativité et le travail d'équipe prospèrent.",
+      "customer-centric": "Orientation Client",
+      "customer-centric-sub-paragraph": "Nos clients sont au cœur de notre activité. Nous nous engageons à comprendre leurs défis uniques et à fournir des solutions personnalisées qui dépassent les attentes. La satisfaction de nos clients est notre objectif ultime.",
+      "security-and-privacy": "Sécurité et Confidentialité",
+      "security-and-privacy-sub-paragraph": "Nous plaçons la sécurité et la confidentialité au centre de nos préoccupations. Nous protégeons les données de nos clients avec les normes les plus élevées, garantissant un environnement fiable et sécurisé.",
+      "continuous-learning": "Apprentissage Continu",
+      "continuous-learning-sub-paragraph": "Nous adoptons une culture d'apprentissage continu et de développement. Nous restons à la pointe des tendances du secteur, acquérons de nouvelles compétences et nous adaptons à l'évolution constante de l'évaluation des performances."
+    },
+    "services": {
+      "title": "Services",
+      "sub-title": "Optimisez l'efficacité RH : Explorez les services de PAP pour une excellence du personnel simplifiée",
+      "swift-precision-hiring-for-company-needs": "Recrutement Rapide et Précis pour Vos Besoins",
+      "swift-precision-hiring-for-company-needs-sub-paragraph-1": "Optimisez vos recrutements avec notre solution de Recrutement Rapide et Précis, adaptée à vos besoins spécifiques. Simplifiez le processus, identifiez les meilleurs talents, et prenez des décisions éclairées pour une équipe en parfaite adéquation avec vos objectifs",
+      "swift-precision-hiring-for-company-needs-sub-paragraph-2": "Réduisez le temps de recrutement, améliorez la qualité des candidats et assurez-vous que chaque nouvelle recrue soit un atout stratégique pour votre entreprise",
+      "strategic-employee-succession-blueprint": "Plan Stratégique de Succession des Employés",
+      "strategic-employee-succession-blueprint-sub-paragraph-1": "Préparez votre entreprise au succès à long terme avec notre Plan Stratégique de Succession. Identifiez et développez les talents clés pour assurer une transition fluide et une continuité durable",
+      "strategic-employee-succession-blueprint-sub-paragraph-2": "Planifiez de manière proactive les besoins en leadership futur, réduisez les risques liés aux lacunes de talents et assurez la résilience et la croissance de votre organisation",
+      "effortless-performance-goal-management-solution": "Gestion Efficace des Objectifs de Performance",
+      "effortless-performance-goal-management-solution-sub-paragraph-1": "Libérez le potentiel de votre équipe avec notre solution de Gestion Efficace des Objectifs. Simplifiez la définition des objectifs, alignez-les avec les priorités de l'entreprise et créez une culture de réussite continue",
+      "effortless-performance-goal-management-solution-sub-paragraph-2": "Notre solution offre une interface conviviale, un suivi en temps réel et des analyses pertinentes pour rendre la gestion des objectifs simple et efficace",
+      "performance-excellence-assessment": "Évaluation de l'Excellence en Performance",
+      "performance-excellence-assessment-sub-paragraph-1": "Améliorez les normes de performance de votre organisation avec notre Évaluation de l'Excellence. Utilisez des données précises pour évaluer les performances individuelles et collectives, identifier les points forts et les axes d'amélioration",
+      "performance-excellence-assessment-sub-paragraph-2": "Notre outil d'évaluation offre une vision globale des performances, permettant à votre organisation de prendre des décisions stratégiques pour un développement constant de l'excellence",
+      "competency-evaluation-excellence-hub": "Hub d'Évaluation des Compétences",
+      "competency-evaluation-excellence-hub-sub-paragraph-1": "Réinventez votre processus d'évaluation des compétences avec notre Hub d'Évaluation des Compétences. Adaptez les évaluations aux objectifs de l'entreprise, identifiez les compétences clés, et formez une équipe prête à réussir",
+      "competency-evaluation-excellence-hub-sub-paragraph-2": "Notre hub centralise les évaluations pour permettre aux professionnels RH de prendre des décisions éclairées sur le développement des talents et la planification stratégique",
+      "soft-skill-mastery-spider-visualization": "Visualisation en Araignée des Compétences Douces",
+      "soft-skill-mastery-spider-visualization-sub-paragraph-1": "Explorez la maîtrise des compétences douces avec notre solution de Visualisation en Araignée. Identifiez les forces et les faiblesses, et favorisez une culture de développement continu",
+      "soft-skill-mastery-spider-visualization-sub-paragraph-2": "Notre outil offre une vue d'ensemble des compétences interpersonnelles et de communication, aidant à constituer des équipes agiles et compétitives dans un environnement en constante évolution"
+    },
+    "home": {
+      "separatorImage": {
+        "strategic-hr-has-never-been-as-important-or-as-easy": "Les RH stratégiques n'ont jamais été aussi importantes ni aussi simples",
+        "pave-the-way-with-software-that-empowers-you-and-your-people": "Ouvrez la voie avec un logiciel qui vous donne, à vous et à vos collaborateurs, les moyens de réussir",
+        "try-it-free": "Essayez-le gratuitement"
+      },
+      "hero": {
+        "don't-just-keep-up-get-ahead": "Ne vous contentez pas de suivre, prenez de l'avance",
+        "tired-of-operating-in-the-dark-when-it-comes-to-your-human-capital": "Fatigué de naviguer à l'aveugle en ce qui concerne votre capital humain",
+        "imagine-having-a-crystal-clear-view-of-your-employees": "Imaginez avoir une vue parfaitement claire sur les forces, faiblesses et potentiel de développement de vos employés. Avec PaP, c'est exactement ce que vous obtenez",
+        "try-it-free": "Essayez-le gratuitement",
+        "see-promotion": "Voir la vidéo",
+        "video": "promotionnelle"
+      },
+      "whatsApp": {
+        "title": "Pourquoi choisir PAP",
+        "sub-paragraph-1": "Informations basées sur les données : Nos outils d'évaluation avancés éliminent les approximations, fournissant des données objectives sur les compétences, les aptitudes et les performances. Identifiez les employés les plus performants, repérez les lacunes en compétences et prévoyez le potentiel futur avec une précision remarquable",
+        "sub-paragraph-2": "Développement des talents facilité : Favorisez une culture d'apprentissage et de croissance continue avec des plans de développement personnalisés adaptés aux besoins et aspirations uniques de chaque employé. Suivez les progrès, mesurez l'impact, et assurez-vous que vos investissements en formation donnent des résultats tangibles",
+        "sub-paragraph-3": "Planification de la succession avec prévoyance : Identifiez et développez proactivement les futurs leaders. Nos viviers de talents assurent une transition en douceur lorsque des postes clés se libèrent, garantissant la continuité de votre entreprise et votre avantage concurrentiel",
+        "sub-paragraph-4": "Vue d'ensemble globale, impact local : Obtenez une compréhension holistique de votre personnel à travers les départements et les emplacements. Identifiez les talents émergents, optimisez l'allocation des ressources, et assurez une performance constante dans toute votre organisation"
+      },
+      "ourServices": {
+        "title": "Nos services",
+        "manage-you-human-capitale-effectively": "Gérez efficacement votre capital humain",
+        "manage-you-human-capitale-effectively-sub-paragraph": "Maximisez le potentiel de votre organisation en gérant efficacement le capital humain. Nos outils assurent des opérations fluides et une main-d'œuvre motivée, stimulant la croissance et le succès.",
+        "empower-people-and-professional-growth": "Encouragez les personnes et la croissance professionnelle",
+        "empower-people-and-professional-growth-sub-paragraph": "Soutenez le développement professionnel de vos employés avec des plans de croissance personnalisés. Donnez-leur les moyens d'atteindre leur meilleur potentiel, contribuant ainsi au succès global de votre organisation.",
+        "professional-detailed-annual-reports": "Rapports annuels détaillés professionnels",
+        "professional-detailed-annual-reports-sub-paragraph": "Recevez des rapports annuels complets et détaillés qui fournissent des informations sur les performances de votre entreprise. Nos rapports vous aident à prendre des décisions éclairées et à élaborer des stratégies pour réussir à l'avenir."
+      },
+      "webappSnapshots": {
+        "know-your-people-to-help-them-grow": "Connaissez vos collaborateurs pour les aider à grandir",
+        "know-your-people-to-help-them-grow-sub-title": "PAP rend la mesure de l'engagement et la gestion des performances simples... et productives",
+        "know-your-people-to-help-them-grow-sub-paragraph-1": "Comprendre votre personnel est essentiel pour favoriser la croissance. PAP vous fournit les outils nécessaires pour analyser et soutenir efficacement les parcours professionnels de vos employés.",
+        "know-your-people-to-help-them-grow-sub-paragraph-2": "Les employés se sentent écoutés, tandis que vous obtenez les retours nécessaires pour résoudre les problèmes, guider la croissance professionnelle, et suivre les initiatives de travail au fil du temps.",
+        "detailed-annual-reports-about-you-company": "Rapports annuels détaillés sur votre entreprise",
+        "detailed-annual-reports-about-you-company-sub-title": "Favoriser la croissance, encourager le talent : des rapports annuels complets sur l'expansion et le développement de votre entreprise",
+        "detailed-annual-reports-about-you-company-sub-paragraph-1": "Obtenez des informations sur les performances de votre entreprise grâce à des rapports annuels détaillés. Ces rapports fournissent des données précieuses pour la planification stratégique et la croissance continue.",
+        "detailed-annual-reports-about-you-company-sub-paragraph-2": "Nos rapports vous aident à identifier les tendances, à comprendre votre personnel et à prendre des décisions qui s'alignent sur les objectifs de votre entreprise.",
+        "intuitive-human-resource-management-at-your-fingertips": "Gestion intuitive des ressources humaines à portée de main",
+        "intuitive-human-resource-management-at-your-fingertips-sub-title": "Perfect Assess Pro s'adapte à tous vos appareils pour une gestion fluide et efficace",
+        "intuitive-human-resource-management-at-your-fingertips-sub-paragraph": "Perfect Assess Pro facilite la gestion des ressources humaines où que vous soyez. Son design réactif assure une adaptation parfaite sur tous les appareils, permettant un accès rapide aux informations, des check-ins simples et un suivi des performances en temps réel. Avec une interface conviviale, les gestionnaires restent connectés et prennent des décisions éclairées en toute mobilité, tandis que les employés profitent d'une expérience fluide et efficace."
+      },
+      "testimonials": {
+        "title": "Témoignages",
+        "3k-customers-gave-their": "Plus de 60 clients ont donné leur retour",
+        "feedback": "d'expérience"
+      },
+      "faqs": {
+        "title": "FAQ",
+        "sub-title": "Questions fréquemment posées",
+        "questions": [
+          {
+            "question": "Qu'est-ce que Performance Assessment Pro (PAP) ?",
+            "answer": "Performance Assessment Pro (PAP) est un logiciel conçu pour faciliter et simplifier le processus d'évaluation des employés. Il aide les professionnels des ressources humaines à évaluer et gérer la performance des employés au sein d'une organisation."
+          },
+          {
+            "question": "Comment PAP aide-t-il dans les évaluations des employés ?",
+            "answer": "PAP fournit une plateforme complète pour réaliser des évaluations des employés. Il permet aux RH de définir des critères de performance, de recueillir des retours de multiples sources, et de générer des rapports de performance perspicaces. Le logiciel vise à simplifier le processus d'évaluation et à améliorer la prise de décision pour les professionnels des RH."
+          },
+          {
+            "question": "Quelles fonctionnalités offre PAP pour les évaluations des employés ?",
+            "answer": "PAP inclut des fonctionnalités telles que des formulaires d'évaluation personnalisables, des retours à 360 degrés, la définition et le suivi des objectifs, des analyses de performance, et des outils de reporting. Ces fonctionnalités sont conçues pour répondre aux besoins divers des professionnels des RH et des organisations en matière d'évaluations des employés."
+          },
+          {
+            "question": "PAP peut-il être personnalisé pour s'adapter aux critères d'évaluation de notre organisation ?",
+            "answer": "Oui, PAP est hautement personnalisable. Les administrateurs RH peuvent configurer les formulaires d'évaluation, les critères, et les échelles de notation en fonction des besoins et des objectifs spécifiques de leur organisation. Cette flexibilité garantit que le logiciel s'aligne avec les exigences uniques de chaque entreprise."
+          },
+          {
+            "question": "Comment PAP assure-t-il la confidentialité et la sécurité des données lors des évaluations ?",
+            "answer": "PAP accorde la priorité à la confidentialité et à la sécurité des données d'évaluation. Il utilise des mesures de sécurité robustes pour protéger les informations sensibles. Des contrôles d'accès et des mécanismes de cryptage sont en place pour garantir que seules les personnes autorisées aient accès aux données d'évaluation, préservant ainsi la confidentialité et l'intégrité du processus."
+          },
+          {
+            "question": "Une formation est-elle fournie pour utiliser PAP efficacement ?",
+            "answer": "Oui, PAP propose généralement des formations et un support pour garantir que les professionnels des RH et les utilisateurs puissent naviguer et utiliser efficacement le logiciel. Les sessions de formation couvrent les fonctionnalités clés, les meilleures pratiques pour les évaluations des employés, et la résolution des problèmes courants. Un support continu est également fourni pour répondre à toute question ou préoccupation."
+          },
+          {
+            "question": "Comment notre organisation peut-elle mettre en œuvre PAP pour les évaluations des employés ?",
+            "answer": "Pour mettre en œuvre PAP, les organisations peuvent commencer par contacter l'équipe de support ou les représentants commerciaux de PAP. Ils vous guideront à travers le processus d'intégration, vous aideront à configurer le logiciel selon les besoins de votre organisation, et fourniront la formation nécessaire. Le processus de mise en œuvre est conçu pour être fluide et adapté à chaque client."
+          }
+        ]
+      }
+    },
+    "employees": {
+      "import": "Importer",
+      "export": "Exporter",
+      "list": "Liste",
+      "grid": "Grille",
+      "orgChart": "Organigramme",
+      "addEmployeeDialog": {
+        "btn": "Ajouter",
+        "title": "Ajouter un Employé",
+        "sub-title": "Activez le sélecteur de département pour trouver des postes prédéfinis en fonction des besoins de votre entreprise.",
+        "form": {
+          "account": "Compte",
+          "personal": "Personnel",
+          "email": "E-mail",
+          "role": "Rôle",
+          "department": "Département",
+          "first-name": "Prénom",
+          "last-name": "Nom de famille",
+          "gender": "Sexe",
+          "key-position": "Poste Clé",
+          "position": "Poste",
+          "employee-number": "Numéro d'Employé",
+          "position-type": "Type de Poste",
+          "hiring-date": "Date d'Embauche",
+          "submit": "Ajouter"
+        },
+        "read-more-about": "En savoir plus sur",
+        "employee": "employés"
+      }
+    },
+    "login": {
+      "back": "Retour",
+      "welcome": "Bienvenue",
+      "enter-your-email": "Entrez votre email pour vous connecter à votre compte",
+      "email": "Email",
+      "password": "Mot de passe",
+      "keep-me-logged-in": "Rester connecté",
+      "login-btn": "Connexion",
+      "or-continue-with": "Ou continuer avec",
+      "dont-have-an-account": "Vous n'avez pas de compte ? S'inscrire",
+      "no-just-forget-i-my-password": "Non, j'ai juste oublié mon mot de passe."
+    },
+    "signUp": {
+      "login": "Connexion",
+      "create-an-account": "Créer un compte",
+      "enter-your-email": "Entrez votre email ci-dessous pour créer votre compte",
+      "email": "Email",
+      "username": "Nom d'utilisateur",
+      "password": "Mot de passe",
+      "register": "S'inscrire",
+      "or-continue-with": "Ou continuer avec",
+      "by-clicking-continue": "En cliquant sur inscrire, vous acceptez",
+      "our-terms": "nos Conditions d'utilisation",
+      "and": "et",
+      "privacy-policy": "la Politique de confidentialité",
+      "already-have-an-account": "Vous avez déjà un compte ? Connexion"
+    },
+
+    "reset-request": {
+      "back": "retour",
+      "title": "Réinitialisez votre mot de passe",
+      "sub-title": "Entrez l'adresse e-mail que vous avez utilisée pour vous inscrire",
+      "form": {
+        "input": "Adresse e-mail",
+        "submit": "Envoyer les instructions"
+      }
+    },
+    "reset": {
+      "back": "retour",
+      "title": "Définissez votre nouveau mot de passe",
+      "sub-title": "Votre nouveau mot de passe doit être différent du mot de passe précédemment utilisé.",
+      "form": {
+        "password": "Mot de passe",
+        "confirm": "Confirmer",
+        "password-placeholder": "mot de passe ici...",
+        "confirm-placeholder": "confirmez ici...",
+        "submit": "Confirmer"
+      }
+    },
+    "dashboard": {
+      "chart": {
+        "orgChart": "Organigramme",
+        "viewAll": "Voir tout",
+        "expend": "Étendre",
+        "collapse": "Réduire",
+        "employee-number-here": "Numéro d'employé ici...",
+        "find": "Recherche",
+        "sorry-you-can-see-organizational-chart-only-in-big-screens": "Désolé, vous ne pouvez voir l'organigramme que sur les grands écrans."
+      },
+
+      "cardsList": {
+        "employees": "Employés",
+        "objectives": "Objectifs",
+        "idps": "PDI"
+      },
+      "nav": {
+        "dashboard": "Tableau de bord",
+        "qualifications": "Qualifications",
+        "employees": "Employés",
+        "team": "Équipe",
+        "performance": "Performance",
+        "idps": "PDI",
+        "succession": "Succession",
+        "logout": "Déconnexion",
+        "settings": "Paramètres"
+      }
+    },
+    "succession": {
+      "addSuccessionDialog": {
+        "btn": "Ajouter",
+        "title": "Ajouter un plan de succession",
+        "sub-title": "Mettre en œuvre une stratégie de planification de la succession robuste garantit des transitions fluides, cultive un vivier de talents et renforce la résilience organisationnelle pour un succès durable.",
+        "form": {
+          "position-title": "Titre du poste",
+          "candidate-name": "Nom du candidat",
+          "since": "Depuis (Date)",
+          "readiness": "Préparation",
+          "status": "Statut",
+          "interim-successor": "Successeur intérimaire",
+          "ranking": "Classement",
+          "submit": "Ajouter"
+        },
+        "read-more-about": "En savoir plus sur",
+        "succession-planning": "la planification de la succession"
+      }
+    },
+    "settings": {
+      "nav": {
+        "account": "Compte",
+        "security": "Sécurité",
+        "company": "Entreprise",
+        "customization": "Personnalisation",
+        "subscription": "Abonnement",
+        "notifications": "Notifications"
+      },
+      "pages": {
+        "account": {
+          "title": "Compte",
+          "sub-title": "Mettez à jour les détails de votre compte ici.",
+          "profile-picture": "Photo de Profil",
+          "this-picture-will-be-displayed-on-your-profile": "Cette photo sera affichée sur votre profil.",
+          "form": {
+            "language": "Langue",
+            "chose-your-preferred-language": "Choisissez votre langue préférée",
+            "username": "Nom d'utilisateur",
+            "your-bio": "Votre Bio",
+            "write-a-short-bio": "Écrivez une courte biographie",
+            "write-a-small-biography-about-you": "Écrivez une courte biographie vous concernant",
+            "backup-email": "E-mail de Secours",
+            "enter-an-alternative-email-if-you'd-like-to": "Entrez un e-mail alternatif si vous le souhaitez.",
+            "submit": "Mettre à jour"
+          }
+        },
+        "security": {
+          "title": "Sécurité",
+          "sub-title": "Mettez à jour vos détails de sécurité ici.",
+          "two-step-verification": "Vérification en deux étapes",
+          "tow-step-verification-sub-paragraph": "Configurez une authentification à deux facteurs (2FA), telle que les messages texte, Google/Microsoft Authenticator, ou toute application similaire.",
+          "text-message": "Messages texte",
+          "text-message-sub-paragraph": "Gérez le numéro de téléphone pour recevoir un code de vérification par SMS.",
+          "authenticator-app": "Application d'authentification",
+          "authenticator-app-sub-paragraph": "Gérez l'application d'authentification pour la vérification en deux étapes.",
+          "devices": "Appareils",
+          "devices-sub-paragraph": "Si vous remarquez une activité suspecte, déconnectez-vous de Pap sur tous les appareils.",
+          "setup": "Configurer",
+          "logout": "Déconnexion",
+          "see-all": "Voir tout",
+          "form": {
+            "change-password": "Changer le mot de passe",
+            "change-password-sub-paragraph": "Changez votre ancien mot de passe.",
+            "old-password": "Ancien mot de passe",
+            "current-password": "Mot de passe actuel",
+            "repeat-password": "Répétez le mot de passe",
+            "submit": "Mettre à jour",
+            "privacy-policy": "Politique de confidentialité"
+          }
+        },
+        "company": {
+          "title": "Entreprise",
+          "sub-title": "Mettez à jour les détails de votre entreprise ici",
+          "form": {
+            "logo-picture": "Logo",
+            "logo-picture-sub-title": "Téléchargez un logo pour votre entreprise",
+            "company-name": "Nom de l'entreprise",
+            "founded": "Fondée",
+            "industry": "Secteur",
+            "employeeCount": "Nombre d'employés",
+            "company-description": "Description de l'entreprise",
+            "write-your-company-description": "Écrivez la description de votre entreprise...",
+            "website-url": "URL du site web",
+            "submit": "Mettre à jour"
+          }
+        },
+        "notifications": {
+          "title": "Notifications",
+          "sub-title": "Nous pourrions encore vous envoyer des notifications importantes concernant votre compte en dehors de vos paramètres de notification",
+          "form": {
+            "performance-goals": "Objectifs de performance",
+            "performance-goals-sub-title": "Ce sont des notifications d'objectifs de performance",
+            "performance-goals-sub-paragraph": "Vous recevrez une notification chaque fois qu'un objectif de performance sera fixé",
+            "idps-goals": "Objectifs des PDI",
+            "idps-goals-sub-title": "Ce sont des notifications d'objectifs de PDI (Plan de Développement Individuel)",
+            "idps-goals-sub-paragraph": "Vous recevrez une notification chaque fois qu'un objectif de PDI (Plan de Développement Individuel) sera fixé",
+            "employee-information": "Informations sur les employés",
+            "employee-information-sub-title": "Ce sont des notifications d'informations sur les employés.",
+            "employee-information-sub-paragraph": "Vous recevrez une notification chaque fois que des informations sur les employés seront modifiées",
+            "push": "Push",
+            "email": "E-mail",
+            "sms": "SMS",
+            "submit": "Mettre à jour",
+            "soon-message": "Cette fonctionnalité est actuellement en cours de développement. Nous vous informerons par e-mail dès qu'elle sera prête à être utilisée"
+          }
+        },
+        "customization": {
+          "title": "Personnalisation",
+          "sub-title": "Personnalisez les détails de votre entreprise ici"
+        }
+      }
+    },
+    "profile": {
+      "nav": {
+        "personal": "Personnel",
+        "job": "Poste",
+        "contact": "Contact",
+        "qualifications": "Qualifications",
+        "competencies": "Compétences",
+        "performance": "Performance",
+        "potential": "Potentiel",
+        "idps": "PDI",
+        "team": "Équipe",
+        "buildTeam": "Modifier L'équipe"
+      },
+      "pages": {
+        "personal": {
+          "submitBtn": "Mettre à jour",
+          "employedAt": "Employé chez $ à $",
+          "reportTo": "Rapporte à",
+          "form": {
+            "first-name": "Prénom",
+            "last-name": "Nom",
+            "middle-name": "Deuxième prénom",
+            "gender": "Genre",
+            "marital-status": "État civil",
+            "date-of-birth": "Date de naissance",
+            "sons": "Enfants",
+            "ssn": "N° de sécurité sociale",
+            "submit": "Mettre à jour"
+          }
+        },
+        "job": {
+          "form": {
+            "role": "Rôle",
+            "department": "Département",
+            "key-position": "Poste clé",
+            "job-title": "Titre du poste",
+            "hiring-date": "Date d'embauche",
+            "job-type": "Type de poste",
+            "employee-number": "Numéro d'employé",
+            "description": "Description",
+            "submit": "Mettre à jour"
+          }
+        },
+        "contact": {
+          "form": {
+            "mobile": "Mobile",
+            "work": "Travail",
+            "home": "Domicile",
+            "email": "E-mail",
+            "country": "Pays",
+            "province": "Province",
+            "city": "Ville",
+            "street1": "Adresse 1",
+            "street2": "Adresse 2",
+            "zip": "Code postal",
+            "submit": "Mettre à jour"
+          }
+        },
+        "potential": {
+          "you": "Vous",
+          "employee": "Employé",
+          "manager": "Manager",
+          "his-boss": "Son chef",
+          "sorry-you-can-see": "Désolé, vous pouvez voir l'organigramme uniquement sur les grands écrans."
+        },
+        "competencies": {
+          "title": "Compétences d'évaluation",
+          "sub-title": "Choisissez un ensemble de compétences qui correspondent aux exigences de votre poste.",
+          "card": {
+            "job": "Poste",
+            "manager": "Manager",
+            "employee": "Employé"
+          },
+          "no-competency-has-been-assigned-yet": "Aucune compétence n'a encore été attribuée !"
+        }
+      }
+    },
+    "setup": {
+      "nav": {
+        "company": "Company",
+        "units": "Units",
+        "ceo": "CEO",
+        "skills": "Skills",
+        "you": "You"
+      },
+      "pages": {
+        "company": {
+          "prefix": "Company Prefix",
+          "companyName": "Company Name",
+          "founded": "Foundation Date",
+          "website": "Website",
+          "founders": "Founders",
+          "employeeCount": "Employee Count",
+          "submitBtn": "Next"
+        },
+        "units": {
+          "submitBtn": "Next"
+        },
+        "you": {
+          "submitBtn": "Submit"
+        }
+      }
+    },
+    "qualifications": {
+      "nav": { "all": "All" }
+    },
+    "competencies": {
+      "nav": { "all": "All" }
+    },
+    "performance": {
+      "nav": { "all": "All" }
+    },
+    "goals": {
+      "nav": { "all": "All", "personal": "Personal" }
+    },
+    "idp": {
+      "nav": { "all": "All" }
+    }
+  }
+}

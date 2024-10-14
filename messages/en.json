@@ -1,0 +1,852 @@
+{
+  "mainNavbar": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login-button": "Login",
+    "try-it-free-button": "Try for free",
+    "dashboard-button": "Dashboard"
+  },
+  "mainFooter": {
+    "company": "Company",
+    "legal": "Legal",
+    "resources": "Resources",
+    "fellow-us-on": "Fellow us on",
+    "subscribe-to-our-newsletter": "Subscribe now to receive timely notifications and stay up-to-date with the last updates",
+    "all-rights-reserved": "All rights reserved. Pap® is a registered trademark of Pap HR LLC",
+    "services": "Services",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "about-us": "About Us",
+    "contact-us": "Contact Us",
+    "developers": "Developers",
+    "faq": "FAQ",
+    "support": "Support",
+    "whatsapp": "Whatsapp",
+    "blog": "Blog",
+    "privacy-policy": "Privacy Policy",
+    "terms-of-service": "Terms of Service"
+  },
+  "avatar": {
+    "nav": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "logout": "Logout"
+    }
+  },
+  "dialogs": {
+    "competency": {
+      "trigger-title": "Add",
+      "title": "Add Competency",
+      "sub-title": "Toggle the department selector to find predefine competency according to you position requirement.",
+      "form": {
+        "search-placeholder": "Search for a skill",
+        "submit": "Update",
+        "no-result": "No Result"
+      },
+      "or-create-a-custom-competency": "Or create a custom competency",
+      "or-create-a-custom-competency-sub-paragraph": "If you don't find competency you want , you can always create a custom one from",
+      "here": "here",
+      "read-more-about": "Read more about",
+      "competencies": "Competencies"
+    },
+    "potential": {
+      "trigger-title": "Edit",
+      "title": "Edit Potential Assessment",
+      "sub-title": "Edit your potential assessment for the current year. You can change the rating and the plan for each skill. Your assessment will remain confidential during the evaluation process.",
+      "form": {
+        "expend": "Expend",
+        "reduce": "Reduce",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "high",
+        "submit": "Update"
+      },
+      "read-more-about": "Read more about",
+      "potential-assessment": "Potential Assessments"
+    },
+    "idps": {
+      "trigger-title": "Add",
+      "title": "Add Individual Development Plan Objective",
+      "sub-title": "Adding individual development plan objectives to your employee will enhance their growth trajectory and align their goals with organizational success.",
+      "form": {
+        "title": "Title",
+        "plan": "Plan",
+        "type": "Type",
+        "duration": "Duration",
+        "trainer": "Trainer",
+        "description": "Description",
+        "priority": "Priority",
+        "status": "Status",
+        "category": "Category",
+        "completion-level": "Completion Level",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "actual-end-date": "Actual End Date",
+        "actual-start-date": "Actual start Date",
+        "success-criteria": "Success criteria",
+        "comment": "Comment",
+        "submit": "Add"
+      },
+      "read-more-about": "Read more about",
+      "ipd-objectives": "IDP objectives"
+    },
+    "qualifications": {
+      "trigger-title": "Add",
+      "title": "Add Qualification",
+      "sub-title": "Adding a qualification certificate enhances your employee's credentials, validating their expertise and contributing to their professional advancement.",
+      "form": {
+        "title-of-qualification": "Title of Qualification",
+        "degree-type": "Degree Type",
+        "field-of-study": "Field of Study",
+        "institution": "Institution",
+        "title-placeholder": "Title here",
+        "field-placeholder": "Field here",
+        "institution-placeholder": "Institution here",
+        "year": "Year",
+        "submit": "Add"
+      },
+      "read-more-about": "Read more about",
+      "qualifications": "Qualifications"
+    },
+    "performance": {
+      "trigger-title": "Add",
+      "title": "Add Performance Objective",
+      "sub-title": "Adding performance objectives to your employee will drive accountability, foster professional growth, and boost overall productivity within your team.",
+      "form": {
+        "title": "Title",
+        "plan": "Plan",
+        "description": "Description",
+        "priority": "Priority",
+        "status": "Status",
+        "category": "Category",
+        "completion-level": "Completion Level",
+        "start-date": "Start date",
+        "end-date": "End date",
+        "actual-end-date": "Actual End Date",
+        "actual-start-date": "Actual start Date",
+        "success-criteria": "Success criteria",
+        "comment": "Comment",
+        "submit": "Add"
+      },
+      "read-more-about": "Read more about",
+      "objectives": "Objectives"
+    },
+    "divisions": {
+      "trigger-title": "Divisions",
+      "title": "Customize Divisions",
+      "sub-title": "Add/Remove a custom division to your system",
+      "form": {
+        "search-placeholder": "Division name",
+        "submit": "Add"
+      }
+    },
+    "departments": {
+      "trigger-title": "Departments",
+      "title": "Customize Departments",
+      "sub-title": "Add/Remove a custom department to your system",
+      "form": {
+        "search-placeholder": "Department name",
+        "division": "Division",
+        "department": "Department",
+        "submit": "Add"
+      }
+    },
+    "skills": {
+      "trigger-title": "Add Competency",
+      "title": "Customize Competencies",
+      "sub-title": "Add a custom competency to your system",
+      "form": {
+        "title": "Title",
+        "sector": "Sector",
+        "required-level": "Required Level",
+        "description": "Description",
+        "description-placeholder": "Competency description",
+
+        "levels-requirements": "Levels Requirements",
+        "levels-requirements-sub-paragraph": "Please list all the level requirements for your custom competency, then click the add button.",
+        "levels-requirements-placeholder": "You can set the level requirements here",
+        "submit": "Add"
+      }
+    },
+    "competenciesList": {
+      "trigger-title": "Edit Competencies",
+      "title": "Custom Competencies List",
+      "sub-title": "Edit/Remove a custom competency from your system"
+    },
+    "softSkills": {
+      "trigger-title": "Soft-Skills",
+      "title": "Customize Soft-Skill",
+      "sub-title": "Update your company's soft-skills set and select 5 to 8 soft-skills to use for evaluating your employees later",
+      "form": {
+        "search-placeholder": "Search for a soft-skill",
+        "update": "Understood",
+        "warning": "Are you absolutely sure?",
+        "warning-paragraph": "This action cannot be undone. It will permanently delete all old employee potential ratings.",
+        "submit": "Continue",
+        "cancel": "Cancel",
+        "no-result": "No Result"
+      }
+    },
+    "passwords": {
+      "trigger-title": "Passwords",
+      "title": "Passwords",
+      "sub-title": "This is the default password for the employee account. Please change it after logging in for the first time"
+    }
+  },
+  "tables": {
+    "buildTeam": {
+      "search-placeholder": "Search by name or email or department...",
+      "join-team": "Join Team",
+      "selectors": {
+        "columns": "Columns",
+        "limit": "Limit"
+      },
+      "columns": {
+        "displayName": "Full Name",
+        "email": "Email",
+        "department": "Department"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "team": {
+      "search-placeholder": "Search by name or email or department...",
+      "selectors": {
+        "columns": "Columns",
+        "limit": "Limit"
+      },
+      "columns": {
+        "displayName": "Full Name",
+        "email": "Email",
+        "department": "Department"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "passwords": {
+      "search-placeholder": "Search by email",
+      "selectors": {
+        "columns": "Columns",
+        "limit": "Limit"
+      },
+      "columns": {
+        "display-name": "Display Name",
+        "email": "Email",
+        "update-at": "Update At",
+        "password": "Password"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "competency": {
+      "search-placeholder": "Search by competency name",
+      "columns": {
+        "competency": "Competency",
+        "sector": "Sector",
+        "required-level": "Required Level",
+        "update-at": "Update At"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "units": {
+      "name": "Name",
+      "update-at": "Update At",
+      "no-result": "No Result",
+      "search-placeholder": "Search",
+      "selectors": {
+        "columns": "Columns",
+        "limit": "Limit"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "performance": {
+      "objectives": "Objectives",
+      "viewAll": "View All",
+      "search-by-title-or-category-or-participent": "Search by Title or Category or Participent...",
+      "selectors": {
+        "plan": {
+          "year": "Year",
+          "all": "ALL"
+        },
+        "columns": "Columns",
+        "limit": "Limit"
+      },
+      "columns": {
+        "title": "Title",
+        "category": "Category",
+        "participant": "Participent",
+        "status": "Status",
+        "progress": "Score"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "employees": {
+      "search-by-name-or-email-or-department": "Search by name...",
+      "selectors": {
+        "columns": "Columns",
+        "limit": "Limit"
+      },
+      "columns": {
+        "fullName": "Full Name",
+        "email": "Email",
+        "department": "Department"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "qualifications": {
+      "search-by-degree-or-field-or-institution": "Search by degree or field or institution...",
+      "selectors": {
+        "columns": "Columns",
+        "limit": "Limit"
+      },
+      "columns": {
+        "degree": "Degree",
+        "field": "Field",
+        "institution": "Institution",
+        "year": "Year"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "idps": {
+      "search-by-title-or-category-or-participent": "Search by title or category or participent...",
+      "selectors": {
+        "plan": {
+          "year": "Année",
+          "all": "TOUT"
+        },
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "title": "Title",
+        "duration": "Duration",
+        "participant": "Participent",
+        "status": "Status",
+        "deadline": "Deadline",
+        "progress": "Score"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "succession": {
+      "search-by-name": "Search by name...",
+      "ranking": "Ranking",
+      "selectors": {
+        "columns": "Colonnes",
+        "limit": "Limite"
+      },
+      "columns": {
+        "full-name": "Full Name",
+        "readiness": "Readiness"
+      },
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "pages": {
+    "pricing": {
+      "title": "Pricing Plans",
+      "sub-title": "Select the pricing that best aligns with your business requirements",
+      "chose-your-plan": "Choose your Plan",
+      "small-plan": "Small Plan",
+      "medium-plan": "Medium Plan",
+      "premium-plan": "Premium Plan",
+      "billed-yearly": "Billed yearly",
+      "or": "or",
+      "billed-monthly": "billed monthly",
+      "most-popular": "MOST POPULAR",
+      "by-now": "By Now",
+      "sub-paragraph": "if you don't find what you need, please let us know so we can work together to create a custom plan tailored to your specific needs",
+      "contact-us": "Contact Us"
+    },
+    "contactUs": {
+      "title": "Stay in touch PAP!",
+      "sub-title": "Meet the Dedicated PAP Team - Your Partners in Progress Ready to Assist and Serve!",
+      "technical-and-account-support": "Technical and account support",
+      "technical-and-account-support-sub-title": "We're here to help if you have technical issues or questions about your account",
+      "contact-information": "Contact information",
+      "contact-information-sub-title": "For general queries, please email",
+      "email": "support-team@pap.com",
+      "or-call": "or call",
+      "phone": "+213-658-769-361",
+      "form": {
+        "first-name": "Fist Name",
+        "last-name": "Last Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Send"
+      }
+    },
+    "aboutUs": {
+      "title": "Who we are",
+      "sub-title": "Values and Principals",
+      "who-we-are": "Who We Are",
+      "who-we-are-sub-paragraph-1": "At Performance Assessment Pro (PAP), we are dedicated to revolutionizing the way organizations approach employee evaluations.",
+      "who-we-are-sub-paragraph-2": "Our team is passionate about providing innovative solutions that empower HR professionals to make informed decisions about workforce performance.",
+      "who-we-are-sub-paragraph-3": "With a commitment to excellence, we strive to simplify and enhance the employee assessment process through our cutting-edge software, PAP.",
+      "who-we-are-sub-paragraph-4": "Join us in redefining the future of performance assessment and talent management.",
+      "values-and-principals": "Values and Principles",
+      "innovation": "Innovation",
+      "innovation-sub-paragraph": "We believe in pushing the boundaries of traditional performance assessment by embracing innovative technologies and methodologies. Our commitment to continuous improvement drives us to deliver solutions that meet the evolving needs of our clients",
+      "integrity": "Integrity",
+      "integrity-sub-paragraph": "Integrity is at the core of everything we do. We uphold the highest standards of honesty, transparency, and ethical conduct. Trust is the foundation of our relationships with clients, partners, and employees.",
+      "collaboration": "Collaboration",
+      "collaboration-sub-paragraph": "We value collaboration and recognize the collective strength of diverse perspectives. By fostering an inclusive and collaborative environment, we aim to create a workplace where creativity and teamwork flourish.",
+      "customer-centric": "Customer Centric",
+      "customer-centric-sub-paragraph": "Our customers are at the heart of our business. We are dedicated to understanding their unique challenges and providing tailored solutions that exceed expectations. Customer satisfaction is our ultimate goal.",
+      "security-and-privacy": "Security and Privacy",
+      "security-and-privacy-sub-paragraph": "Our customers are at the heart of our business. We are dedicated to understanding their unique challenges and providing tailored solutions that exceed expectations. Customer satisfaction is our ultimate goal.",
+      "continuous-learning": "Continuous Learning",
+      "continuous-learning-sub-paragraph": "We embrace a culture of continuous learning and development. As a team, we are committed to staying ahead of industry trends, acquiring new skills, and adapting to the dynamic landscape of performance assessment."
+    },
+    "services": {
+      "title": "Services",
+      "sub-title": "Optimisez l'efficacité RH : Explorez les services de PAP pour une excellence du personnel simplifiée",
+      "swift-precision-hiring-for-company-needs": "Swift, Precision Hiring For Company Needs",
+      "swift-precision-hiring-for-company-needs-sub-paragraph-1": "Elevate your hiring process with our Swift, Precision Hiring solution tailored to meet your company's unique needs. Streamline recruitment, identify top talent efficiently, and make data-driven decisions for a workforce that aligns seamlessly with your organization's goals",
+      "swift-precision-hiring-for-company-needs-sub-paragraph-2": "Experience the power of precision in hiring – reducing time-to-fill roles, enhancing candidate quality, and ensuring that every addition to your team is a strategic fit. Swift, Precision Hiring is the key to building a workforce that propels your company towards success.",
+      "strategic-employee-succession-blueprint": "Strategic Employee Succession Blueprint",
+      "strategic-employee-succession-blueprint-sub-paragraph-1": "Chart the course for long-term organizational success with our Strategic Employee Succession Blueprint. Identify and nurture key talent within your organization, ensuring a seamless transition of skills and knowledge. Cultivate a culture of growth and continuity for sustained excellence",
+      "strategic-employee-succession-blueprint-sub-paragraph-2": "Our blueprint empowers you to proactively plan for future leadership needs, mitigating risks associated with talent gaps. Prepare your workforce for successions that are not just smooth transitions but strategic moves towards a resilient and thriving organization",
+      "effortless-performance-goal-management-solution": "Effortless Performance Goal Management Solution",
+      "effortless-performance-goal-management-solution-sub-paragraph-1": "      Unleash the potential of your team with our Effortless Performance Goal Management Solution. Streamline the goal-setting process, empower employees to align their objectives with organizational priorities, and foster a culture of achievement and continuous improvement",
+      "effortless-performance-goal-management-solution-sub-paragraph-2": "      Say goodbye to the complexities of goal management. Our solution provides a user-friendly interface, real-time progress tracking, and insightful analytics, making it effortless for your organization to drive performance excellence through clearly defined and attainable goals",
+      "performance-excellence-assessment": "Performance Excellence Assessment",
+      "performance-excellence-assessment-sub-paragraph-1": "Elevate your organization's performance standards with our Performance Excellence Assessment. Harness the power of data-driven insights to evaluate individual and team performance comprehensively. Identify strengths, address areas for improvement, and drive a culture of excellence.",
+      "performance-excellence-assessment-sub-paragraph-2": "Our assessment tool goes beyond traditional metrics, providing a holistic view of performance factors. Equip your organization with the knowledge to make strategic decisions, nurture talent, and continuously strive for excellence in every aspect of your operations",
+      "competency-evaluation-excellence-hub": "Competency Evaluation Excellence Hub",
+      "competency-evaluation-excellence-hub-sub-paragraph-1": "Transform your competency evaluation process with our Competency Evaluation Excellence Hub. Tailor evaluations to align with organizational goals, identify key competencies, and build a workforce equipped with the skills necessary for success in today's competitive landscape",
+      "competency-evaluation-excellence-hub-sub-paragraph-2": "Our hub provides a centralized platform for efficient competency assessments, enabling HR professionals to make informed decisions about talent development and strategic workforce planning. Embrace a new era of competency evaluation excellence with our comprehensive solution",
+      "soft-skill-mastery-spider-visualization": "Soft-Skill Mastery Spider Visualization",
+      "soft-skill-mastery-spider-visualization-sub-paragraph-1": "Dive into the world of Soft-Skill Mastery with our Spider Visualization solution. Unleash the potential of your workforce by visualizing and honing essential soft skills. Identify strengths, pinpoint areas for improvement, and foster a culture of continuous learning and development",
+      "soft-skill-mastery-spider-visualization-sub-paragraph-2": "Our Spider Visualization tool provides a comprehensive view of individual and team soft-skill proficiencies, empowering organizations to build agile and adaptable teams. Elevate your workforce's interpersonal and communication skills for a competitive edge in today's dynamic business landscape"
+    },
+    "home": {
+      "separatorImage": {
+        "strategic-hr-has-never-been-as-important-or-as-easy": "Strategic HR has never been as important or as easy",
+        "pave-the-way-with-software-that-empowers-you-and-your-people": "Pave the way with software that empowers you and your people",
+        "try-it-free": "Try it free"
+      },
+      "hero": {
+        "don't-just-keep-up-get-ahead": "Don't Just Keep Up Get Ahead",
+        "tired-of-operating-in-the-dark-when-it-comes-to-your-human-capital": "Tired of operating in the dark when it comes to your human capital",
+        "imagine-having-a-crystal-clear-view-of-your-employees": "Imagine having a crystal-clear view of your employees' strengths, weaknesses, and development potential. With PaP, that's exactly what you get",
+        "try-it-free": "Try it free",
+        "see-promotion": "See promotion",
+        "video": "Video"
+      },
+      "whatsApp": {
+        "title": "Why Choose PAP",
+        "sub-paragraph-1": "Data-driven insights: Our advanced assessment tools cut through the guesswork, providing objective data on skills, competencies, and performance. Identify high-performing employees, pinpoint skills gaps, and predict future potential with remarkable accuracy",
+        "sub-paragraph-2": "Talent development made easy: Foster a culture of continuous learning and growth with personalized development plans tailored to each employee's unique needs and aspirations. Track progress, measure impact, and ensure your training investments deliver tangible results",
+        "sub-paragraph-3": "Succession planning with foresight: Proactively identify and nurture future leaders. Our talent pipelines ensure a smooth transition when key positions become vacant, safeguarding your business continuity and competitive edge",
+        "sub-paragraph-4": "Global overview, local impact: Gain a holistic understanding of your workforce across departments and locations. Identify emerging talent, optimize resource allocation, and drive consistent performance across your entire organization"
+      },
+      "ourServices": {
+        "title": "Our Services",
+        "manage-you-human-capitale-effectively": "Manage your Human Capital effectively",
+        "manage-you-human-capitale-effectively-sub-paragraph": "Maximize your organization's potential by managing human capital effectively. Our tools ensure seamless operations and a motivated workforce, driving growth and success.",
+        "empower-people-and-professional-growth": "Empower people and professional growth",
+        "empower-people-and-professional-growth-sub-paragraph": "Support your employees' professional development with tailored growth plans. Empower them to achieve their best, contributing to the overall success of your organization.",
+        "professional-detailed-annual-reports": "Professional detailed annual reports",
+        "professional-detailed-annual-reports-sub-paragraph-1": "Receive comprehensive and detailed annual reports that provide insights into your company's performance. Our reports help you make informed decisions and strategize for future success."
+      },
+      "webappSnapshots": {
+        "know-your-people-to-help-them-grow": "Know your people to help them grow",
+        "know-your-people-to-help-them-grow-sub-title": "PAP makes measuring engagement and managing performance painless... and productive",
+        "know-your-people-to-help-them-grow-sub-paragraph-1": "Understanding your workforce is key to fostering growth. PAP provides you with the tools to analyze and support your employees' professional journeys effectively.",
+        "know-your-people-to-help-them-grow-sub-paragraph-2": "Employees feel heard, while you get the feedback needed to solve problems, guide professional growth, and track work initiatives over time.",
+        "detailed-annual-reports-about-you-company": "Detailed annual reports about your company",
+        "detailed-annual-reports-about-you-company-sub-title": "Fostering Growth, Empowering Talent: Comprehensive annual reports on your company's expansion and development",
+        "detailed-annual-reports-about-you-company-sub-paragraph-1": "Gain insights into your company's performance through detailed annual reports. These reports provide valuable data for strategic planning and continued growth.",
+        "detailed-annual-reports-about-you-company-sub-paragraph-2": "Our reports help you identify trends, understand your workforce, and make decisions that align with your company's goals.",
+        "intuitive-human-resource-management-at-your-fingertips": "Intuitive Human Resource Management at Your Fingertips",
+        "intuitive-human-resource-management-at-your-fingertips-sub-title": "Perfect Assess Pro adapts to all your devices for seamless and efficient management",
+        "intuitive-human-resource-management-at-your-fingertips-sub-paragraph": "Perfect Assess Pro makes managing your human resources effortless, no matter where you are. Its responsive design ensures that the app fits perfectly on any device, allowing quick access to essential information, easy check-ins, and real-time performance monitoring. With a user-friendly interface, managers can stay connected and make informed decisions on the go, while employees enjoy a smooth and efficient experience"
+      },
+      "testimonials": {
+        "title": "Testimonials",
+        "3k-customers-gave-their": "60+ Customers gave their",
+        "feedback": "Feedback"
+      },
+      "faqs": {
+        "title": "FAQs",
+        "sub-title": "Frequently asked questions",
+        "questions": [
+          {
+            "question": "What is Performance Assessment Pro (PAP)?",
+            "answer": "Performance Assessment Pro (PAP) is a software designed to facilitate and streamline the employee evaluation process. It helps HR professionals assess and manage the performance of employees in an organization."
+          },
+          {
+            "question": "How does PAP assist in employee evaluations?",
+            "answer": "PAP provides a comprehensive platform for conducting employee evaluations. It allows HR to set performance criteria, gather feedback from multiple sources, and generate insightful performance reports. The software aims to simplify the assessment process and enhance decision-making for HR professionals."
+          },
+          {
+            "question": "What features does PAP offer for employee evaluations?",
+            "answer": "PAP includes features such as customizable evaluation forms, 360-degree feedback, goal setting and tracking, performance analytics, and reporting tools. These features are designed to cater to the diverse needs of HR professionals and organizations when it comes to employee assessments."
+          },
+          {
+            "question": "Can PAP be customized to suit our organization’s evaluation criteria?",
+            "answer": "Yes, PAP is highly customizable. HR administrators can configure evaluation forms, criteria, and rating scales based on the specific needs and goals of their organization. This flexibility ensures that the software aligns with the unique requirements of each company."
+          },
+          {
+            "question": "How does PAP ensure confidentiality and data security during evaluations?",
+            "answer": "PAP prioritizes the confidentiality and security of evaluation data. It employs robust security measures to protect sensitive information. Access controls and encryption mechanisms are in place to ensure that only authorized personnel have access to the evaluation data, maintaining the privacy and integrity of the process."
+          },
+          {
+            "question": "Is training provided for using PAP effectively?",
+            "answer": "Yes, PAP typically offers training and support to ensure that HR professionals and users can effectively navigate and utilize the software. Training sessions cover key features, best practices for employee evaluations, and troubleshooting common issues. Ongoing support is also provided to address any questions or concerns."
+          },
+          {
+            "question": "How can our organization implement PAP for employee evaluations?",
+            "answer": "To implement PAP, organizations can start by contacting the PAP support team or sales representatives. They will guide you through the onboarding process, assist in setting up the software according to your organization’s needs, and provide necessary training. The implementation process is designed to be seamless and tailored to each client."
+          }
+        ]
+      }
+    },
+    "employees": {
+      "import": "Import",
+      "export": "Export",
+      "list": "List",
+      "grid": "Grid",
+      "orgChart": "Org Chart",
+      "addEmployeeDialog": {
+        "btn": "Add",
+        "title": "Add Employee",
+        "sub-title": "Toggle the department selector to find predefine position according to your company requirement.",
+        "form": {
+          "account": "Account",
+          "personal": "Personal",
+          "position": "Position",
+          "email": "Email",
+          "role": "Role",
+          "department": "Department",
+          "first-name": "Fist Name",
+          "last-name": "Last Name",
+          "gender": "Gender",
+          "key-position": "Key Position",
+          "employee-number": "Employee Number",
+          "position-type": "Positon Type",
+          "hiring-date": "Hiring Date",
+          "submit": "Add"
+        },
+        "read-more-about": "Read more about",
+        "employee": "employees"
+      }
+    },
+    "dashboard": {
+      "chart": {
+        "orgChart": "Org Chart",
+        "viewAll": "View All",
+        "expend": "Expend",
+        "collapse": "Collapse",
+        "employee-number-here": "Employee number here...",
+        "find": "find",
+        "sorry-you-can-see-organizational-chart-only-in-big-screens": "Sorry you can see organizational chart only in big screens."
+      },
+      "cardsList": {
+        "employees": "Employees",
+        "objectives": "Objectives",
+        "idps": "IDPs"
+      },
+      "nav": {
+        "dashboard": "Dashboard",
+        "qualifications": "Qualifications",
+        "employees": "Employees",
+        "team": "Team",
+        "performance": "Performance",
+        "idps": "IDPs",
+        "succession": "Succession",
+        "logout": "Logout",
+        "settings": "Settings"
+      }
+    },
+    "login": {
+      "back": "back",
+      "welcome": "Welcome back",
+      "enter-your-email": "Enter your email to sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "keep-me-logged-in": "Keep me logged in",
+      "login-btn": "Login",
+      "or-continue-with": "Or continue with",
+      "dont-have-an-account": "Don't have an account? Sign Up",
+      "no-just-forget-i-my-password": "No i just forget my password"
+    },
+    "signUp": {
+      "login": "login",
+      "create-an-account": "Create an account",
+      "enter-your-email": "Enter your email below to create your account",
+      "email": "Email",
+      "username": "Username",
+      "password": "Password",
+      "register": "Register",
+      "or-continue-with": "Or continue with",
+      "by-clicking-continue": "By clicking register, you agree to",
+      "our-terms": "our Terms of Service",
+      "and": "and",
+      "privacy-policy": "Privacy Policy",
+      "already-have-an-account": "Already have an account? Login"
+    },
+    "reset-request": {
+      "back": "back",
+      "title": "Reset your password",
+      "sub-title": "Enter the email address you used to register with",
+      "form": {
+        "input": "Email address",
+        "submit": "Send instructions"
+      }
+    },
+    "reset": {
+      "back": "back",
+      "title": "Set you new password",
+      "sub-title": "Your new password should be different from the password previously used.",
+      "form": {
+        "password": "Password",
+        "confirm": "Confirm ",
+        "password-placeholder": "password here...",
+        "confirm-placeholder": "confirm here...",
+        "submit": "Confirm"
+      }
+    },
+    "settings": {
+      "nav": {
+        "account": "Account",
+        "security": "Security",
+        "company": "Company",
+        "customization": "Customization",
+        "subscription": "Subscription",
+        "notifications": "Notifications"
+      },
+      "pages": {
+        "account": {
+          "title": "Account",
+          "sub-title": "Update your account details here.",
+          "profile-picture": "Profile Picture",
+          "this-picture-will-be-displayed-on-your-profile": "This picture will be displayed on your profile.",
+          "form": {
+            "language": "Language",
+            "chose-your-preferred-language": "Chose your preferred language",
+            "username": "Username",
+            "your-bio": "Your Bio",
+            "write-a-short-bio": "Write a short bio",
+            "write-a-small-biography-about-you": "Write a small biography about you",
+            "backup-email": "Backup Email",
+            "enter-an-alternative-email-if-you'd-like-to": "Enter an alternative email if you'd like to.",
+            "submit": "Update"
+          }
+        },
+        "security": {
+          "title": "Security",
+          "sub-title": "Update your security details here.",
+          "two-step-verification": "Two-Step Verification",
+          "tow-step-verification-sub-paragraph": "Set up a (2FA) two-factor authentication, such as Text messages , Google/Microsoft Authenticator, or any similar application.",
+          "text-message": "Text Messaging",
+          "text-message-sub-paragraph": "Manage the phone number to receive a verification code by text.",
+          "authenticator-app": "Authenticator app",
+          "authenticator-app-sub-paragraph": "Manage the authenticator app for tow step verification.",
+          "devices": "Devices",
+          "devices-sub-paragraph": "If you notice any suspicious activity , log out of Pap across all devices.",
+          "setup": "Setup",
+          "logout": "Logout",
+          "see-all": "See all",
+          "form": {
+            "change-password": "Change Password",
+            "change-password-sub-paragraph": "Change your old password.",
+            "old-password": "Old password",
+            "current-password": "Current password",
+            "repeat-password": "Repeat password",
+            "submit": "Update",
+            "privacy-policy": "Privacy Policy"
+          }
+        },
+        "company": {
+          "title": "Company",
+          "sub-title": "Update your company details here",
+          "form": {
+            "logo-picture": "Logo Picture",
+            "logo-picture-sub-title": "Upload a logo for you company",
+            "company-name": "Company Name",
+            "founded": "Founded",
+            "industry": "Industry",
+            "employeeCount": "Employee count",
+            "company-description": "Company description",
+            "write-your-company-description": "Write your company description...",
+            "website-url": "Website URL",
+            "submit": "Update"
+          }
+        },
+        "notifications": {
+          "title": "Notifications",
+          "sub-title": "We may still send you important notifications about your account outside of your notification settings",
+          "form": {
+            "performance-goals": "Performance Goals",
+            "performance-goals-sub-title": "This are performance goal notifications",
+            "performance-goals-sub-paragraph": "You will get a notification when ever a performance goal being set",
+            "idps-goals": " IDP's Goals",
+            "idps-goals-sub-title": "This are IDP's (Individual Development Plan) goal notifications",
+            "idps-goals-sub-paragraph": "You will get a notification when ever a IDP's (Individual Development Plan) goal being set",
+            "employee-information": "Employee Informations",
+            "employee-information-sub-title": "This are employee informations notifications.",
+            "employee-information-sub-paragraph": "You will get a notification when ever a employee informations being changed",
+            "push": "Push",
+            "email": "Email",
+            "sms": "SMS",
+            "submit": "Update",
+            "soon-message": "This functionality is currently in development. We will notify you via email as soon as it is ready to use."
+          }
+        },
+        "customization": {
+          "title": "Customization",
+          "sub-title": "Customize you company detail here"
+        }
+      }
+    },
+    "profile": {
+      "nav": {
+        "personal": "Personal",
+        "job": "Job",
+        "contact": "Contact",
+        "qualifications": "Qualifications",
+        "competencies": "Competencies",
+        "performance": "Performance",
+        "potential": "Potential",
+        "idps": "IDPs",
+        "team": "Team",
+        "buildTeam": "Build Team"
+      },
+      "pages": {
+        "personal": {
+          "submitBtn": "Update",
+          "employedAt": "Employed at $ in $",
+          "reportTo": "Report to",
+          "form": {
+            "first-name": "Fist Name",
+            "last-name": "Last Name",
+            "middle-name": "Middle Name",
+            "gender": "Gender",
+            "marital-status": "Marital Status",
+            "date-of-birth": "Date of birth",
+            "sons": "Sons",
+            "ssn": "SSN",
+            "submit": "Update"
+          }
+        },
+        "job": {
+          "form": {
+            "role": "Role",
+            "department": "Department",
+            "key-position": "Key Position",
+            "job-title": "Job Title",
+            "hiring-date": "Hiring Date",
+            "job-type": "Job Type",
+            "employee-number": "Employee Number",
+            "description": "Description",
+            "submit": "Update"
+          }
+        },
+        "contact": {
+          "form": {
+            "mobile": "Mobile",
+            "work": "Work",
+            "home": "Home",
+            "email": "Email",
+            "country": "Country",
+            "province": "Province",
+            "city": "City",
+            "street1": "Street 1",
+            "street2": "Street 2",
+            "zip": "Street 2",
+            "submit": "Update"
+          }
+        },
+        "potential": {
+          "you": "You",
+          "employee": "Employee",
+          "manager": "Manager",
+          "his-boss": "His Boss",
+          "sorry-you-can-see": "Sorry you can see organizational chart only in big screens."
+        },
+        "competencies": {
+          "title": "Assessment Competencies",
+          "sub-title": "Choose a set of competencies that align with your position's requirements.",
+          "card": {
+            "job": "Job",
+            "manager": "Manager",
+            "employee": "Employee"
+          },
+          "no-competency-has-been-assigned-yet": "No competency has been assigned yet!"
+        }
+      }
+    },
+    "setup": {
+      "nav": {
+        "company": "Company",
+        "units": "Units",
+        "ceo": "CEO",
+        "skills": "Skills",
+        "you": "You"
+      },
+      "pages": {
+        "company": {
+          "prefix": "Company Prefix",
+          "companyName": "Company Name",
+          "founded": "Foundation Date",
+          "website": "Website",
+          "founders": "Founders",
+          "employeeCount": "Employee Count",
+          "submit": "Next"
+        },
+        "units": {
+          "submit": "Next"
+        },
+        "you": {
+          "submit": "Submit"
+        }
+      }
+    },
+    "succession": {
+      "addSuccessionDialog": {
+        "btn": "Add",
+        "title": "Add Succussion Plan",
+        "sub-title": "Implementing a robust succession planning strategy ensures smooth transitions, cultivates a pipeline of talent, fortifies organizational resilience for sustained success.",
+        "form": {
+          "position-title": "Position Title",
+          "candidate-name": "Candidate Name",
+          "since": "Since (Date)",
+          "readiness": "Readiness",
+          "status": "Status",
+          "interim-successor": "Interim Successor ",
+          "ranking": "Ranking",
+          "submit": "Add"
+        },
+        "read-more-about": "Read more about",
+        "succession-planning": "succession planing"
+      }
+    },
+    "qualifications": {
+      "nav": { "all": "All" }
+    },
+    "competencies": {
+      "nav": { "all": "All" }
+    },
+    "performance": {
+      "nav": { "all": "All" }
+    },
+    "goals": {
+      "nav": { "all": "All", "personal": "Personal" }
+    },
+    "idp": {
+      "nav": { "all": "All" }
+    }
+  }
+}
